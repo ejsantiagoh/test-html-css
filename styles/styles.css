@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    height: 200vh;
+    width: 99vw;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 99vw;
+    background-color: wheat;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: end;
+    border: 1px solid black;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+.inicio{
+    position: relative;
+    border: 1px solid black;
+}
+.img-inicio{
+    position: absolute;
+    height: 94vh;
+    width: 99vw;
+}
+.text-inicio{
+    position: absolute;
+    height: 30vh;
+    width: 42vw;
+    background-color:beige;
+    top: 64vh;
+    left: 34vw;
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    position: absolute;
+    font-size: 40px;
+    
+}
+.botones{
+    display: flex;
+    align-items: flex-end;
+    margin: 25px;
+    justify-content: flex-end;
+    position: relative;
+    top: 10vh;
+    
+}
+.btn-vende{
+    display: flex;
+    height: 8vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-compra{
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.somos{
+    position: relative;
+    background-color: gray;
+    color: #fff;
+    height: 100vh;
+    width: 99vw;
+    top: 94vh;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.img-personas{
+    position: absolute;
+    width: 40vw;
+    height: 70vh;
+    right: 8vw;
+    top: 10vh;
+}
+.somos h1{
+    position: absolute;
+    font-size: 60px;
+    left: 14vw;
+    top: 20vh;
+}
+.somos p{
+    position: absolute;
+    font-size: 39px;
+    left: 15vw;
+    top: 30vh;
+    width: 30vw;
+}
+.anuncios{
+    position: relative;
+    background-color: wheat;
+    color: black;
+    height: 100vh;
+    width: 99vw;
+    top: 94vh;
+    padding: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.anuncios h1{
+    position: absolute;
+    font-size: 40px;
+    right: 35vw;
+}
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 15vh;
+}
+.bloque1{
+    grid-column: 1/2;
+    padding: 20px;
+}
+.img-casa1{
+    width: 18vw;
+    height: 17h;
+}
+.bloque2{
+    grid-column: 2 / -2;
+    padding: 30px;
+}
+.img-casa2{
+    width: 18vw;
+    height: 17vh;
+}
+.bloque3{
+    grid-column: 3 /-1;
+    padding: 20px;
+}
+.img-casa3{
+    width: 18vw;
+    height: 17h;
+}
+
+.ventas{
+    position: relative;
+    background-color: wheat;
+    color: black;
+    height: 100vh;
+    width: 99vw;
+    top: 94vh;
+    padding: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.ventas h1{
+    position: absolute;
+    font-size: 40px;
+    right: 35vw;
+}
+.bloquesVentas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 15vh;
+}
+.bloque4{
+    grid-column: 1/2;
+    padding: 20px;
+}
+.img-casa4{
+    width: 18vw;
+    height: 17h;
+}
+.bloque5{
+    grid-column: 2 / -2;
+    padding: 30px;
+}
+.img-casa5{
+    width: 18vw;
+    height: 17vh;
+}
+.bloque6{
+    grid-column: 3 /-1;
+    padding: 20px;
+}
+.img-casa6{
+    width: 18vw;
+    height: 17h;
+}
+.clientes{
+    position: relative;
+    background-color: wheat;
+    color: black;
+    height: 100vh;
+    width: 99vw;
+    top: 94vh;
+    padding: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+.clientes h1{
+    position: absolute;
+    font-size: 40px;
+    right: 35vw;
+}
+.bloquesClientes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    top: 15vh;
+}
+.bloque7{
+    grid-column: 1/2;
+    padding: 20px;
+}
+.bloque8{
+    grid-column: 2 / -2;
+    padding: 30px;
+}
+.bloque9{
+    grid-column: 3 /-1;
+    padding: 20px;
+}
